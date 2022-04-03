@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag shan101/flownet:flownet
+      run: |
+          docker build . --file Dockerfile --tag flownet
+          docker push shan101/flownet:flownet
