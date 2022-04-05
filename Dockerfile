@@ -6,6 +6,7 @@ RUN pip install \
         transformers==2.5.1 \
         tensorboardX==1.8 \
         numpy\
+        pandas\
         torchtext==0.5.0 \
         nltk==3.4.4 \
         scikit-learn==0.23.2 \
