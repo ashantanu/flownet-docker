@@ -7,6 +7,7 @@ RUN pip install \
         tensorboardX==1.8 \
         numpy\
         pandas\
+        matplotlib\
         torchtext==0.5.0 \
         nltk==3.4.4 \
         scikit-learn==0.23.2 \
